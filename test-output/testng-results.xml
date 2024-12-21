@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-18T22:59:54 IST" name="Default suite" finished-at="2024-12-18T22:59:58 IST" duration-ms="3138">
+  <suite started-at="2024-12-21T14:02:45 IST" name="Default suite" finished-at="2024-12-21T14:02:52 IST" duration-ms="7305">
     <groups>
     </groups>
-    <test started-at="2024-12-18T22:59:54 IST" name="Default test" finished-at="2024-12-18T22:59:58 IST" duration-ms="3138">
-      <class name="com.thetestingacademy.ATB9xAPIAutomationProgram.ex02_RestAssuredBasics.GET.APITesting007_GET_BDDStyle">
-        <test-method signature="test_GET_Req_NEGATIVE()[pri:0, instance:com.thetestingacademy.ATB9xAPIAutomationProgram.ex02_RestAssuredBasics.GET.APITesting007_GET_BDDStyle@304bb45b]" started-at="2024-12-18T22:59:54 IST" name="test_GET_Req_NEGATIVE" finished-at="2024-12-18T22:59:57 IST" duration-ms="2351" status="FAIL">
+    <test started-at="2024-12-21T14:02:45 IST" name="Default test" finished-at="2024-12-21T14:02:52 IST" duration-ms="7305">
+      <class name="com.thetestingacademy.ATB9xAPIAutomationProgram.ex02_RestAssuredBasics.Task_12122024.APITestingTask01_BDDStyle">
+        <test-method signature="test_GET_INVALID_POST_ID()[pri:0, instance:com.thetestingacademy.ATB9xAPIAutomationProgram.ex02_RestAssuredBasics.Task_12122024.APITestingTask01_BDDStyle@66982506]" started-at="2024-12-21T14:02:45 IST" name="test_GET_INVALID_POST_ID" finished-at="2024-12-21T14:02:50 IST" duration-ms="5041" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -48,7 +48,7 @@ at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCal
 at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
 at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-at com.thetestingacademy.ATB9xAPIAutomationProgram.ex02_RestAssuredBasics.GET.APITesting007_GET_BDDStyle.test_GET_Req_NEGATIVE(APITesting007_GET_BDDStyle.java:38)
+at com.thetestingacademy.ATB9xAPIAutomationProgram.ex02_RestAssuredBasics.Task_12122024.APITestingTask01_BDDStyle.test_GET_INVALID_POST_ID(APITestingTask01_BDDStyle.java:72)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -80,12 +80,20 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_GET_Req_NEGATIVE -->
-        <test-method signature="test_GET_Req_POSITIVE()[pri:0, instance:com.thetestingacademy.ATB9xAPIAutomationProgram.ex02_RestAssuredBasics.GET.APITesting007_GET_BDDStyle@304bb45b]" started-at="2024-12-18T22:59:57 IST" name="test_GET_Req_POSITIVE" finished-at="2024-12-18T22:59:58 IST" duration-ms="660" status="PASS">
+        </test-method> <!-- test_GET_INVALID_POST_ID -->
+        <test-method signature="test_GET_POST_BY_USER()[pri:0, instance:com.thetestingacademy.ATB9xAPIAutomationProgram.ex02_RestAssuredBasics.Task_12122024.APITestingTask01_BDDStyle@66982506]" started-at="2024-12-21T14:02:50 IST" name="test_GET_POST_BY_USER" finished-at="2024-12-21T14:02:50 IST" duration-ms="445" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_GET_Req_POSITIVE -->
-      </class> <!-- com.thetestingacademy.ATB9xAPIAutomationProgram.ex02_RestAssuredBasics.GET.APITesting007_GET_BDDStyle -->
+        </test-method> <!-- test_GET_POST_BY_USER -->
+        <test-method signature="test_GET_Specific_Post()[pri:0, instance:com.thetestingacademy.ATB9xAPIAutomationProgram.ex02_RestAssuredBasics.Task_12122024.APITestingTask01_BDDStyle@66982506]" started-at="2024-12-21T14:02:50 IST" name="test_GET_Specific_Post" finished-at="2024-12-21T14:02:51 IST" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_GET_Specific_Post -->
+        <test-method signature="test_Get_All_Post()[pri:0, instance:com.thetestingacademy.ATB9xAPIAutomationProgram.ex02_RestAssuredBasics.Task_12122024.APITestingTask01_BDDStyle@66982506]" started-at="2024-12-21T14:02:51 IST" name="test_Get_All_Post" finished-at="2024-12-21T14:02:52 IST" duration-ms="1198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Get_All_Post -->
+      </class> <!-- com.thetestingacademy.ATB9xAPIAutomationProgram.ex02_RestAssuredBasics.Task_12122024.APITestingTask01_BDDStyle -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
