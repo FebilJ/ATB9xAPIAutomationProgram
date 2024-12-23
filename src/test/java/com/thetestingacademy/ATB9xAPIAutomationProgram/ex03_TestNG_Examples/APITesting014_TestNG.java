@@ -1,4 +1,4 @@
-package com.thetestingacademy.ATB9xAPIAutomationProgram.ex03_testNG_Examples;
+package com.thetestingacademy.ATB9xAPIAutomationProgram.ex03_TestNG_Examples;
 
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
