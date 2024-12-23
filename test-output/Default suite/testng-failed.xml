@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.thetestingacademy.ATB9xAPIAutomationProgram.ex03_testNG_Examples.APITesting018_TestNG_Parameters">
+      <class name="com.thetestingacademy.ATB9xAPIAutomationProgram.ex05_PayLoadManagement.APITesting_025_RestAssured_Payload_POJO">
         <methods>
-          <include name="demo1"/>
+          <include name="test_POST"/>
         </methods>
-      </class> <!-- com.thetestingacademy.ATB9xAPIAutomationProgram.ex03_testNG_Examples.APITesting018_TestNG_Parameters -->
+      </class> <!-- com.thetestingacademy.ATB9xAPIAutomationProgram.ex05_PayLoadManagement.APITesting_025_RestAssured_Payload_POJO -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
