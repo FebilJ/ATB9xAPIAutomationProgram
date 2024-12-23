@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.thetestingacademy.ATB9xAPIAutomationProgram.ex02_RestAssuredBasics.Task_12122024.APITestingTask01_BDDStyle">
+      <class name="com.thetestingacademy.ATB9xAPIAutomationProgram.ex03_testNG_Examples.APITesting018_TestNG_Parameters">
         <methods>
-          <include name="test_GET_INVALID_POST_ID"/>
+          <include name="demo1"/>
         </methods>
-      </class> <!-- com.thetestingacademy.ATB9xAPIAutomationProgram.ex02_RestAssuredBasics.Task_12122024.APITestingTask01_BDDStyle -->
+      </class> <!-- com.thetestingacademy.ATB9xAPIAutomationProgram.ex03_testNG_Examples.APITesting018_TestNG_Parameters -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
